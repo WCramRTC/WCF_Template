@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4ece7965-dc1d-430f-acdf-43f544b6ac1a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/CharacterService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CharacterService.xsd" MetadataType="Schema" ID="4b69dd04-9e16-49bf-8dad-f8380b691178" SourceId="1" SourceUrl="http://localhost:8000/CharacterService?xsd=xsd1" />
+    <MetadataFile FileName="CharacterService1.xsd" MetadataType="Schema" ID="e9501490-d746-4002-be0d-804ed4131550" SourceId="1" SourceUrl="http://localhost:8000/CharacterService?xsd=xsd0" />
+    <MetadataFile FileName="CharacterService2.xsd" MetadataType="Schema" ID="4ababe40-397e-41cf-a0c5-bdba895184d4" SourceId="1" SourceUrl="http://localhost:8000/CharacterService?xsd=xsd2" />
+    <MetadataFile FileName="CharacterService.disco" MetadataType="Disco" ID="0067728c-604c-4909-81ee-756c3999d55a" SourceId="1" SourceUrl="http://localhost:8000/CharacterService?disco" />
+    <MetadataFile FileName="CharacterService.wsdl" MetadataType="Wsdl" ID="626d0b14-aace-4667-a35d-39bc185992fb" SourceId="1" SourceUrl="http://localhost:8000/CharacterService?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
